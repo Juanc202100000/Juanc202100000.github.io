@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2? family= Comfortaa:wght@300 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Comfortaa', cursiva;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(198, 118, 6);
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 750 px;
+    width: 1200px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.form {
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form h1 {
+    font-size: 70px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.form p {
+    font-size: 35px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 25px;
+    color: #000000;
+}
+
+.box {
+    border: 0;
+    background-color: rgb(208, 208, 208);
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    outline: none;
+    font-size: 26px;
+    
+}
+
+.submit {
+    background-color: #00660c;
+    border: 0;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    border-radius: 25px;
+    width: 250px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px rgb(rgb(31, 163, 10), rgb(5, 117, 5), rgb(74, 230, 97));
+}
+
+.info {
+    padding: 50px;
+}
+
+.articulo {
+    font-size: 20px;
+    color: #000000;
+    margin-block-start: 40px;
+}
+
+.img-1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.icons {
+    display: flex;
+    margin-bottom: 31px;
+}
+
+.icons img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.icons p {
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.instagram img {
+    width: 55px;
+    display: block;
+    color: #000000;
+    margin-block-end: 5px;
+}
+
+.facebook img {
+    width: 55px;
+    display: block;
+    color: #000000;
+    margin-block-start: 5px;
+}
+
+
+@media (max-width:990px) {
+    .container{
+        width: 550px;
+        height: 980px;
+        margin-top: 50px;
+    }
+    .info {
+        display: none;
+    }
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+}
